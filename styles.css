@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav-bar a:hover {
+  background: lightseagreen;
+  border-radius: 4px;
+}
+
+/* Home section */
+#home {
+  position: relative;
+  height: 100vh;
+  background-color: brown;
+}
+
+/* About section */
+#about {
+  background: rgb(212, 198, 198);
+}
+
+/* Resume section */
+#resume {
+  background: rgb(200, 110, 200);
+}
+#carouselExampleCaptions {
+  background-image: url(./pic/tom-barrett-hgGplX3PFBg-unsplash.jpg);
+}
+
+#pic {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 12rem;
+}
+
+/* modal */
+img {
+  height: 200px;
+  width: 200px;
+}
